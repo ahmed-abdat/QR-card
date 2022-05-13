@@ -29,6 +29,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: var(--Light-gray);
+  font-family: 'Outfit', sans-serif;
 }
 
 p {
@@ -66,19 +67,18 @@ p {
 /* card-body */
 
 .card-body {
-  margin: 25px 15px;
+  margin: 25px;
   text-align: center;
 }
 
-.card-body h1 {
-  font-size: 23px;
+.card-body h2 {
+  font-size: 21px;
   margin: 0 0 15px;
   font-weight: 700;
   color: var(--Dark-blue);
 }
 
 .card-body p {
-  font-weight: 700;
   color: var(--Grayish-blue);
 }
 
